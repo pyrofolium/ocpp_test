@@ -37,6 +37,6 @@
   "scripts": {
     "build:server": "tsc server.ts --module CommonJS --outDir dist --esModuleInterop",
     "build:client": "tsc client.ts --module CommonJS --outDir dist --esModuleInterop",
-    "build": "npm run build:cjs && npm run build:esm"
+    "build": "npm run build:client && npm run build:server"
   }
 }
