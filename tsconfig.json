@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    // Suitable for most Node.js versions
+    "module": "CommonJS",
+    // Default for CommonJS
+    "outDir": "dist",
+    // Output folder for compiled files
+    "rootDir": "src",
+    // Where your TypeScript source code lives
+    "strict": true,
+    // Strict type checking
+    "esModuleInterop": true,
+    // Compatibility with CommonJS and ESModule imports
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./src/**/*",
+    "./examples/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
